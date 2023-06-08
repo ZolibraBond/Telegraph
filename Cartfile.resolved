@@ -1,2 +1,2 @@
 github "Building42/HTTPParserC" "2.9.4"
-github "robbiehanson/CocoaAsyncSocket" "7.6.5"
+github "marciogranzotto/CocoaAsyncSocket" "16a159ba383c33ad5b55a5c77824e23ac2910997"
