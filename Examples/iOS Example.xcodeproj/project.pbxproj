@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E9E9B272A3269C1005BC071 /* CocoaAsyncSocket in Frameworks */ = {isa = PBXBuildFile; productRef = 2E9E9B262A3269C1005BC071 /* CocoaAsyncSocket */; };
 		8284FF211ECEA0BB00303A00 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 8284FF201ECEA0BB00303A00 /* index.html */; };
 		82A9A71923E63C4B0072F4FC /* Telegraph.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82A9A71823E63C4B0072F4FC /* Telegraph.framework */; };
 		82A9A71A23E63C4B0072F4FC /* Telegraph.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 82A9A71823E63C4B0072F4FC /* Telegraph.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -56,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E9E9B272A3269C1005BC071 /* CocoaAsyncSocket in Frameworks */,
 				82A9A71923E63C4B0072F4FC /* Telegraph.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -142,6 +144,7 @@
 			);
 			name = "iOS Example";
 			packageProductDependencies = (
+				2E9E9B262A3269C1005BC071 /* CocoaAsyncSocket */,
 			);
 			productName = "iOS Example";
 			productReference = 82EF33F01ECD330C002DC910 /* iOS Example.app */;
@@ -174,8 +177,8 @@
 			);
 			mainGroup = 82EF33E71ECD330C002DC910;
 			packageReferences = (
-				8206411F240C4737003403F3 /* XCRemoteSwiftPackageReference "CocoaAsyncSocket" */,
 				82064122240C4743003403F3 /* XCRemoteSwiftPackageReference "HTTPParserC" */,
+				2E9E9B252A3269C1005BC071 /* XCRemoteSwiftPackageReference "CocoaAsyncSocket" */,
 			);
 			productRefGroup = 82EF33F11ECD330C002DC910 /* Products */;
 			projectDirPath = "";
@@ -416,12 +419,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		8206411F240C4737003403F3 /* XCRemoteSwiftPackageReference "CocoaAsyncSocket" */ = {
+		2E9E9B252A3269C1005BC071 /* XCRemoteSwiftPackageReference "CocoaAsyncSocket" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/robbiehanson/CocoaAsyncSocket";
+			repositoryURL = "https://github.com/marciogranzotto/CocoaAsyncSocket";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 7.6.4;
+				branch = master;
+				kind = branch;
 			};
 		};
 		82064122240C4743003403F3 /* XCRemoteSwiftPackageReference "HTTPParserC" */ = {
@@ -433,6 +436,14 @@
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2E9E9B262A3269C1005BC071 /* CocoaAsyncSocket */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2E9E9B252A3269C1005BC071 /* XCRemoteSwiftPackageReference "CocoaAsyncSocket" */;
+			productName = CocoaAsyncSocket;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 82EF33E81ECD330C002DC910 /* Project object */;
 }
