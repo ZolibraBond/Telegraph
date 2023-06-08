@@ -1,25 +1,23 @@
 {
-  "object": {
-    "pins": [
-      {
-        "package": "CocoaAsyncSocket",
-        "repositoryURL": "https://github.com/robbiehanson/CocoaAsyncSocket",
-        "state": {
-          "branch": null,
-          "revision": "dbdc00669c1ced63b27c3c5f052ee4d28f10150c",
-          "version": "7.6.5"
-        }
-      },
-      {
-        "package": "HTTPParserC",
-        "repositoryURL": "https://github.com/Building42/HTTPParserC",
-        "state": {
-          "branch": null,
-          "revision": "75f12587ccf3296827d3f97e2a69a5865acc4d98",
-          "version": "2.9.4"
-        }
+  "pins" : [
+    {
+      "identity" : "cocoaasyncsocket",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/marciogranzotto/CocoaAsyncSocket",
+      "state" : {
+        "branch" : "master",
+        "revision" : "16a159ba383c33ad5b55a5c77824e23ac2910997"
       }
-    ]
-  },
-  "version": 1
+    },
+    {
+      "identity" : "httpparserc",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Building42/HTTPParserC",
+      "state" : {
+        "revision" : "75f12587ccf3296827d3f97e2a69a5865acc4d98",
+        "version" : "2.9.4"
+      }
+    }
+  ],
+  "version" : 2
 }
